@@ -1,0 +1,16 @@
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-12">
+    <app-courses (courseClicked)="clickCardView($event)" [course]="coreCourse"></app-courses>
+    <app-courses [course]="rxjsCourse"></app-courses>
+    <app-courses [course]="nxjsCourse"></app-courses>
+    
+  </div>
+</div>
+  
+
+</div>
+
+
+<router-outlet />

@@ -1,0 +1,13 @@
+<div class="courseContent">
+    <div class="course-title">
+       <h2>{{course.description}}</h2>
+    </div>
+    <img width="300" alt="Angular Logo"
+         [src]="course.iconUrl">
+    
+    <div class="course-description">
+       {{course.longDescription}}
+    </div>
+    <button (click)="onCourseViewed()" class="btn btn-primary">View Course</button>
+</div>
+
