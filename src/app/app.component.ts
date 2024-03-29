@@ -15,7 +15,7 @@ export class AppComponent {
    coreCourse = COURSES[0];
    rxjsCourse = COURSES[1];
    nxjsCourse = COURSES[2];
-   title = 'RentCar';
+   title = 'Inudi Rent a car';
 
    clickCardView(course:Course){
     console.log(course);
